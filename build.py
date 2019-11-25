@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 import errno
 import json
 import subprocess
@@ -14,7 +14,7 @@ import shutil
 import file_expander
 
 transcrypt_arguments = ['-n', '-p', '.none']
-transcrypt_dirty_args = transcrypt_arguments + []
+transcrypt_dirty_args = transcrypt_arguments
 transcrypt_clean_args = transcrypt_arguments + ['-b']
 
 
